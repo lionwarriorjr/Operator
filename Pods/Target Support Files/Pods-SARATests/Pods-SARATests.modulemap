@@ -1,0 +1,6 @@
+framework module Pods_SARATests {
+  umbrella header "Pods-SARATests-umbrella.h"
+
+  export *
+  module * { export * }
+}

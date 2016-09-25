@@ -1,0 +1,6 @@
+framework module Pods_SARAUITests {
+  umbrella header "Pods-SARAUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

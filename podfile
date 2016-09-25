@@ -1,0 +1,27 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+use_frameworks!
+
+target 'SARA' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SARA
+  pod 'GoogleAPIClient/Calendar', '~> 1.0.2'
+  pod 'GTMOAuth2', '~> 1.1.0'
+  pod 'Firebase'
+  pod 'Firebase/Auth'    
+  pod 'CVCalendar', '~> 1.2.9'
+  pod 'Google/SignIn'
+
+  target 'SARATests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SARAUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
