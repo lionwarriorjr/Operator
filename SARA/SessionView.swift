@@ -296,7 +296,7 @@ extension SessionView {
     
     func generateKinematics() -> [Double] {
         var kinematics = [Double](count: 76, repeatedValue: 0.0)
-        for i in 1...kinematics.count {
+        for i in 0...(kinematics.count-1) {
             kinematics[i] = Double(arc4random_uniform(5) + 1)
         }
         return kinematics;
